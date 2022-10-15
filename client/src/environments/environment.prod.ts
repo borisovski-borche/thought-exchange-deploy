@@ -1,4 +1,4 @@
 export const environment = {
-  API_URL: 'http://localhost:3000',
+  API_URL: 'https://thought-exchange-deploy-production.up.railway.app',
   production: true,
 };

@@ -25,6 +25,8 @@ app.use(errorHandler);
 const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || "0.0.0.0"; //localhost
 
+// this is a random comment
+
 mongoose.connect(MONGO_URI, err => {
   if (err) {
     console.log(err);
